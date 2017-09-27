@@ -10,6 +10,7 @@ body {
     position: relative;
     height: 340px;
     width: 1042px;
+    margin: auto;
 }
 
 #top-left{
@@ -19,7 +20,7 @@ body {
 #top-right{
     margin: 40px 20px 0px 30px;
     position: absolute;
-    right: 20px;  
+    right: 20px;
     color: rgb(85, 172, 238);
     font-weight: bold;
     font-size: 25px;
@@ -30,7 +31,7 @@ body {
 
 #botton{
     position: absolute;
-    top: 280px;
+    top: 260px;
     left: 40px;
 }
 
@@ -39,7 +40,7 @@ span {
     bottom: 5px;
 }
 
-.floated{
+.floated, .img-botton{
     float: left;
 }
 
@@ -77,5 +78,12 @@ span {
 
 #retweet-fav{
     font-size: 32px;
-    color: rgb(105, 120, 130); 
+    color: rgb(105, 120, 130);
+    line-height: 2px;
+    margin-left: 5px;
+}
+
+.img-botton{
+  vertical-align: text-bottom;
+  margin: 22px 0 0 0;
 }
